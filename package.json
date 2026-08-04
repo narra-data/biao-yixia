@@ -1,0 +1,17 @@
+{
+  "name": "biao-yixia",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "selftest": "electron . --selftest"
+  },
+  "keywords": [],
+  "author": "narra-data",
+  "license": "MIT",
+  "description": "裱一下 — Windows 截图美化器:粘贴、裱框、复制,三步出图",
+  "devDependencies": {
+    "@electron/packager": "^20.1.1",
+    "electron": "^43.2.0"
+  }
+}
