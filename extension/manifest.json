@@ -1,15 +1,16 @@
 {
   "manifest_version": 3,
   "name": "裱一下 — 截图美化 Screenshot Beautifier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "一键截取当前页面并美化:渐变背景、圆角、阴影、水印,复制即发。Capture the current page and beautify it with gradient backgrounds, rounded corners and shadows.",
   "permissions": [
     "activeTab",
+    "scripting",
     "storage",
     "clipboardWrite"
   ],
   "action": {
-    "default_title": "截取当前页面,裱一下"
+    "default_title": "框选截图,裱一下"
   },
   "background": {
     "service_worker": "bg.js"
