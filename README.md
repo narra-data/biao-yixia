@@ -13,6 +13,10 @@ Ctrl+V 粘贴截图(或拖入图片)→ 挑个背景 → 「复制 PNG」→ 去
 - **导出**:一键复制到剪贴板(直接去微信粘贴)/ 保存文件 / 2× 高清导出
 - **全程本地处理**,图片不上传任何服务器
 
+## Chrome 扩展版
+
+[extension/](extension/) 目录为 Chrome 扩展版:点工具栏图标一键截取当前页面进入美化器。上架材料见 extension/store/上架清单.md。
+
 ## 使用
 
 **普通用户**:去 [Releases](../../releases) 下载 zip,解压后双击 `BiaoYixia.exe`。
